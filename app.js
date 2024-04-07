@@ -15,12 +15,26 @@ if (age >= value) {
 //}
 
 //3rd question
-//const value = july;
-//const season = summer;
-//if ((season = value)) {
-//console.log("İt is summer");
-//}
+const month = "February"
+//! Version 1
+const winterMonths = ["December", "January", "February"];
+const springMonths = ["March", "April", "May"];
+const summerMonths = ["June", "July", "August"];
 
+if (winterMonths?.includes(month)) {
+  console.log("It is winter");
+} else if (springMonths?.includes(month)) {
+  console.log("It is spring");
+} else if (summerMonths?.includes(month)) {
+  console.log("It is summer");
+} else {
+  console.log("It is autumn");
+}
+
+if( month === "December" || month === "January" || month === "February" ){
+ console.log("It is winter")
+            
+             }
 //4th question
 //const value = 14;
 //const num1 = 3;
