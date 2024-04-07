@@ -31,10 +31,22 @@ if (winterMonths?.includes(month)) {
   console.log("It is autumn");
 }
 
-if( month === "December" || month === "January" || month === "February" ){
- console.log("It is winter")
-            
-             }
+if (month === "December" || month === "January" || month === "February") {
+  console.log("It is winter");
+} else if (month === "March" || month === "April" || month === "May") {
+  console.log("It is spring");
+} else if (month === "June" || month === "July" || month === "August") {
+  console.log("It is summer");
+} else if (
+  month === "September" ||
+  month === "October" ||
+  month === "November"
+) {
+  console.log("It is autumn");
+} else {
+  console.log("Invalid month");
+}
+
 //4th question
 //const value = 14;
 //const num1 = 3;
