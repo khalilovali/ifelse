@@ -63,7 +63,9 @@ if (month === "December" || month === "January" || month === "February") {
 //if (value % num == 0) {
 //console.log("Divided");
 //} else {
-//console.log(value / num);}
+//console.log(value % num);}
+
+1
 
 //6th question
 //const num1 = 3;
