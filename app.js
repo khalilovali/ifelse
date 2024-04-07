@@ -1,10 +1,10 @@
-//const value = 63;
-//const age = 34;
-//if (age >= value) {
-//  console.log("You can retire");
-//} else if (age < value) {
-// console.log("Can not retire");
-//}
+const value = 63;
+const age = 34;
+if (age >= value) {
+ console.log("You can retire");
+} else  {
+  console.log("Can not retire");
+}
 
 //Second Question
 //const num = 4;
