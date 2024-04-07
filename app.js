@@ -102,18 +102,20 @@ if (month === "December" || month === "January" || month === "February") {
 //if (num1 >= 90) {
 //console.log("A");
 //}
-//if (num1 >= 80 && num < 90) {
+//else if (num1 >= 80 && num < 90) {
 //console.log("B");
 //}
-//if (num1 >= 70 && num1 < 80) {
+//else if (num1 >= 70 && num1 < 80) {
 //console.log("C");
 //}
-//if (num1 >= 60 && num1 < 70) {
+//else if (num1 >= 60 && num1 < 70) {
 //console.log("D");
 //}
-//if (num1 < 60) {
+//else if (num1 < 60) {
 //console.log("F");
-//}
+//}else{
+console.log("invalid number")
+}
 
 //11th question
 //const age = 44;
