@@ -118,17 +118,16 @@ console.log("invalid number")
 }
 
 //11th question
-//const age = 44;
-//if (age <= 18) {
-//console.log("Teenager");
-//}
-
-//if (age > 18 && age < 64) {
-//console.log("Adult");
-//}
-//if (age > 64) {
-//console.log("Old");
-//}
+const age = 44;
+if (age <= 18) {
+console.log("Teenager");
+} else if (age > 18 && age < 64) {
+console.log("Adult");
+}else if (age > 64) {
+console.log("Old");
+}else {
+ console.log("invalid age")
+}
 
 //12th question
 //const x = 1;
