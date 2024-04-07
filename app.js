@@ -1,10 +1,10 @@
-const value = 63;
-const age = 34;
-if (age >= value) {
- console.log("You can retire");
-} else  {
-  console.log("Can not retire");
-}
+// const value = 63;
+// const age = 34;
+// if (age >= value) {
+//  console.log("You can retire");
+// } else  {
+//   console.log("Can not retire");
+// }
 
 //Second Question
 //const num = 4;
@@ -15,7 +15,7 @@ if (age >= value) {
 //}
 
 //3rd question
-const month = "February"
+const month = "February";
 //! Version 1
 const winterMonths = ["December", "January", "February"];
 const springMonths = ["March", "April", "May"];
@@ -65,7 +65,7 @@ if (month === "December" || month === "January" || month === "February") {
 //} else {
 //console.log(value % num);}
 
-1
+1;
 
 //6th question
 //const num1 = 3;
@@ -114,19 +114,19 @@ if (month === "December" || month === "January" || month === "February") {
 //else if (num1 < 60) {
 //console.log("F");
 //}else{
-console.log("invalid number")
-}
+// console.log("invalid number")
+// }
 
 //11th question
 const age = 44;
 if (age <= 18) {
-console.log("Teenager");
+  console.log("Teenager");
 } else if (age > 18 && age < 64) {
-console.log("Adult");
-}else if (age > 64) {
-console.log("Old");
-}else {
- console.log("invalid age")
+  console.log("Adult");
+} else if (age > 64) {
+  console.log("Old");
+} else {
+  console.log("invalid age");
 }
 
 //12th question
@@ -158,4 +158,3 @@ if (defaultNum === num) {
 } else if (lastNumberOfNum === lastNumber || firstNumberOfNum === firstNumber) {
   console.log("You win 100azn");
 } else console.log("Try again!!!");
-
