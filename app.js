@@ -113,4 +113,21 @@
 // console.log(3 * x + 4 * y + 3);}
 
 //13th question
-const num = 53;
+const defaultNum = 45;
+const num = 35;
+
+const lastNumber = defaultNum % 10;
+const firstNumber = parseInt(defaultNum / 10);
+const result = lastNumber * 10 + firstNumber;
+
+const lastNumberOfNum = num % 10;
+const firstNumberOfNum = parseInt(num / 10);
+
+if (defaultNum === num) {
+  console.log("You win 1kazn");
+} else if (num == result) {
+  console.log("You win 500azn");
+} else if (lastNumberOfNum === lastNumber || firstNumberOfNum === firstNumber) {
+  console.log("You win 100azn");
+} else console.log("Try again!!!");
+
