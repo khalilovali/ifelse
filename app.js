@@ -130,16 +130,15 @@ console.log("Old");
 }
 
 //12th question
-//const x = 1;
-//const y = 0;
-//if (x > 0 && y < 0) {
-//console.log(4 * x + 2 * y + 4);
-//}
-//if (x > 0 && y == 0) {
-//console.log(2 * x - y + 3);
-//}
-//if (x < 0 && y > 0) {
-// console.log(3 * x + 4 * y + 3);}
+const x = 1;
+const y = 0;
+if (x > 0 && y < 0) {
+  console.log(4 * x + 2 * y + 4);
+} else if (x > 0 && y == 0) {
+  console.log(2 * x - y + 3);
+} else if (x < 0 && y > 0) {
+  console.log(3 * x + 4 * y + 3);
+}
 
 //13th question
 const num = 53;
