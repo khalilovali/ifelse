@@ -1,10 +1,10 @@
-//const value = 63;
-//const age = 34;
-//if (age >= value) {
-//  console.log("You can retire");
-//} else if (age < value) {
-// console.log("Can not retire");
-//}
+const value = 63;
+const age = 34;
+if (age >= value) {
+ console.log("You can retire");
+} else  {
+  console.log("Can not retire");
+}
 
 //Second Question
 //const num = 4;
@@ -15,11 +15,37 @@
 //}
 
 //3rd question
-//const value = july;
-//const season = summer;
-//if ((season = value)) {
-//console.log("İt is summer");
-//}
+const month = "February"
+//! Version 1
+const winterMonths = ["December", "January", "February"];
+const springMonths = ["March", "April", "May"];
+const summerMonths = ["June", "July", "August"];
+
+if (winterMonths?.includes(month)) {
+  console.log("It is winter");
+} else if (springMonths?.includes(month)) {
+  console.log("It is spring");
+} else if (summerMonths?.includes(month)) {
+  console.log("It is summer");
+} else {
+  console.log("It is autumn");
+}
+
+if (month === "December" || month === "January" || month === "February") {
+  console.log("It is winter");
+} else if (month === "March" || month === "April" || month === "May") {
+  console.log("It is spring");
+} else if (month === "June" || month === "July" || month === "August") {
+  console.log("It is summer");
+} else if (
+  month === "September" ||
+  month === "October" ||
+  month === "November"
+) {
+  console.log("It is autumn");
+} else {
+  console.log("Invalid month");
+}
 
 //4th question
 //const value = 14;
@@ -37,7 +63,9 @@
 //if (value % num == 0) {
 //console.log("Divided");
 //} else {
-//console.log(value / num);}
+//console.log(value % num);}
+
+1
 
 //6th question
 //const num1 = 3;
@@ -74,43 +102,43 @@
 //if (num1 >= 90) {
 //console.log("A");
 //}
-//if (num1 >= 80 && num < 90) {
+//else if (num1 >= 80 && num < 90) {
 //console.log("B");
 //}
-//if (num1 >= 70 && num1 < 80) {
+//else if (num1 >= 70 && num1 < 80) {
 //console.log("C");
 //}
-//if (num1 >= 60 && num1 < 70) {
+//else if (num1 >= 60 && num1 < 70) {
 //console.log("D");
 //}
-//if (num1 < 60) {
+//else if (num1 < 60) {
 //console.log("F");
-//}
+//}else{
+console.log("invalid number")
+}
 
 //11th question
-//const age = 44;
-//if (age <= 18) {
-//console.log("Teenager");
-//}
-
-//if (age > 18 && age < 64) {
-//console.log("Adult");
-//}
-//if (age > 64) {
-//console.log("Old");
-//}
+const age = 44;
+if (age <= 18) {
+console.log("Teenager");
+} else if (age > 18 && age < 64) {
+console.log("Adult");
+}else if (age > 64) {
+console.log("Old");
+}else {
+ console.log("invalid age")
+}
 
 //12th question
-//const x = 1;
-//const y = 0;
-//if (x > 0 && y < 0) {
-//console.log(4 * x + 2 * y + 4);
-//}
-//if (x > 0 && y == 0) {
-//console.log(2 * x - y + 3);
-//}
-//if (x < 0 && y > 0) {
-// console.log(3 * x + 4 * y + 3);}
+const x = 1;
+const y = 0;
+if (x > 0 && y < 0) {
+  console.log(4 * x + 2 * y + 4);
+} else if (x > 0 && y == 0) {
+  console.log(2 * x - y + 3);
+} else if (x < 0 && y > 0) {
+  console.log(3 * x + 4 * y + 3);
+}
 
 //13th question
 const defaultNum = 45;
